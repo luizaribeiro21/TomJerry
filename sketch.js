@@ -4,13 +4,13 @@ var rato, imgRato, imgRato2;
 
 function preload() {
     //load the images here
-    imgGato = loadImage ("./images/cat1.png"); 
-    imgGato2 = loadAnimation("./images/cat2.png", "./images/cat3.png"); 
-    imgGato3 = loadImage ("./images/cat4.png"); 
-    imgRato = loadImage ("./images/mouse1.png"); 
-    imgRato2 = loadAnimation ( "./images/mouse2.png", "./images/mouse3.png"); 
-    imgRato3 = loadImage ("./images/mouse4.png"); 
-    imgJardim = loadImage ("./images/garden.png"); 
+    imgGato = loadImage ("cat1.png"); 
+    imgGato2 = loadAnimation("cat2.png", "cat3.png"); 
+    imgGato3 = loadImage ("cat4.png"); 
+    imgRato = loadImage ("mouse1.png"); 
+    imgRato2 = loadAnimation ("mouse2.png", "mouse3.png"); 
+    imgRato3 = loadImage ("mouse4.png"); 
+    imgJardim = loadImage ("garden.png"); 
 
 }
 
