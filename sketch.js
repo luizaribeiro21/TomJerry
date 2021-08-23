@@ -5,10 +5,10 @@ var rato, imgRato, imgRato2;
 function preload() {
     //load the images here
     imgGato = loadImage ("./images/cat1.png"); 
-    imgGato2 = loadAnimation("/images/cat2.png", "/images/cat3.png"); 
+    imgGato2 = loadAnimation("./images/cat2.png", "./images/cat3.png"); 
     imgGato3 = loadImage ("./images/cat4.png"); 
     imgRato = loadImage ("./images/mouse1.png"); 
-    imgRato2 = loadAnimation ( "/images/mouse2.png", "/images/mouse3.png"); 
+    imgRato2 = loadAnimation ( "./images/mouse2.png", "./images/mouse3.png"); 
     imgRato3 = loadImage ("./images/mouse4.png"); 
     imgJardim = loadImage ("./images/garden.png"); 
 
@@ -61,18 +61,3 @@ function draw() {
 
     drawSprites();
 }
-
-
-//function keyPressed(){
-
-    //if(keyCode === LEFT_ARROW){
-        //gato.velocityX = -5; 
-        //gato.addImage("gatoAndando", imgGato2);
-       // gato.changeImage("gatoAndando");
-        
-       // rato.addAnimation("ratoProvocando", imgRato2);
-        //rato.frameDelay = 25;
-        //rato.changeAnimation("ratoProvocando");
-   // }
-   
-//}
